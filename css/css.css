@@ -1,0 +1,42 @@
+.wrapper {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 
+	"sidebar header header"
+	"sidebar articles articles"
+    "sidebar articles articles"
+    "sidebar articles articles"
+	"footer footer footer";
+	margin:2%;
+	grid-gap: 25px;
+}
+
+.Header {
+    background-color:lightgrey;
+    
+
+
+}
+
+.articles {
+    background-color:lightsalmon;
+    
+}
+
+.Aside {
+    background-color:lightseagreen;
+    
+
+
+}
+
+.footer {
+    background-color:lightsteelblue;
+    
+
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
