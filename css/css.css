@@ -17,7 +17,23 @@
 
 
 }
-
+.header,li {
+    list-style: none;
+    font-size: 1.5em;
+  font-family: Baskerville Old Face; 
+  padding: 1em;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 2px 5px 5px grey;
+  }
+  
+  .header, li:before {
+    content: '✓'; 
+  padding: 1em;
+  }
+  
+  a:hover {background-color: silver;  }
 .articles {
     background-color:lightsalmon;
     
