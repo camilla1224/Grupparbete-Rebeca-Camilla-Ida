@@ -17,7 +17,7 @@
 
 
 }
-.header,li {
+.Header,li {
     list-style: none;
     font-size: 1.5em;
   font-family: Baskerville Old Face; 
@@ -33,7 +33,10 @@
   padding: 1em;
   }
   
-  a:hover {background-color: silver;  }
+  a:hover {
+      background-color: silver; 
+ }
+ 
 .articles {
     background-color:lightsalmon;
     
